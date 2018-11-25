@@ -1,0 +1,7 @@
+<view class="model-wrap">
+	<view class="model-box">
+		<image src="{{imgUrl}}"></image>
+		<canvas canvas-id="myCanvas"></canvas>
+	</view>
+	<view class="save-btn" bindtap="save">保存图片</view>
+</view>

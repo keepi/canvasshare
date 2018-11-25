@@ -1,0 +1,32 @@
+page {height: 100%}
+.model-wrap {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+}
+.model-box {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(0, -50%);
+}
+image {
+	width: 750rpx;
+	height: 788rpx;
+}
+canvas {
+	position: absolute;
+	top: 0;
+	left: 750px;
+	width: 750px;
+	height: 788px;
+}
+.save-btn {
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 90%;
+	left: 43%;
+	transform: translate(0, -50%);
+}
